@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 // Definição da struct deve vir antes do uso 
 struct Carta{
     char estado; 
