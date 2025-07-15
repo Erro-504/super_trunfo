@@ -38,9 +38,11 @@ void lerCarta(struct Carta *c)
     printf("Digite os Pontos Turístico:");
     scanf("%d", &c->pontosturisticos);
 }
+
 int main(){
 
     struct Carta carta1, carta2; // Agora 'carta' está completamente defindo antes de uso
+    
     printf("Preencha os dados da Primeira carta:\n");
     lerCarta(&carta1);
 
