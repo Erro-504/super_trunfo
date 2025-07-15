@@ -16,6 +16,7 @@ struct Carta{
 
 void lerCarta(struct Carta *c)
 {
+
     printf("Digite o estado:");
     scanf("%c", &c->estado); 
 
